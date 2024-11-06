@@ -180,9 +180,8 @@ if __name__ == '__main__':
     model = MCAT_Net(1, 2)
     model.to(DEVICE)
 
-    with warnings.catch_warnings():
-        warnings.simplefilter("ignore", category=FutureWarning)
-        state_dict = torch.load(best_dice_path)
+
+    state_dict = torch.load(best_dice_path, weights_only=True)
     model.load_state_dict(state_dict)
     model.eval()
 
