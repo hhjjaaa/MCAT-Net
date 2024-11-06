@@ -4,7 +4,7 @@ import torch
 import numpy as np
 from scipy.spatial.distance import directed_hausdorff
 from global_ import *
-from train1_def import *
+from test_def import *
 import torch.utils.data
 import pandas as pd
 from tqdm import tqdm
