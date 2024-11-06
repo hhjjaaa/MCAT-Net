@@ -6,7 +6,6 @@ cycler==0.12.1
 einops==0.8.0
 filelock==3.13.1
 fonttools==4.54.1
-gmpy2==2.1.2
 idna==3.7
 Jinja2==3.1.4
 kiwisolver==1.4.7
