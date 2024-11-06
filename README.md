@@ -13,7 +13,7 @@ Create a new environment and install the requirements:
 conda create -n MCAT python==3.11
 conda activate MCAT
 pip install -r requirements.txt
-```bash
+
 
 
 
