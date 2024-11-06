@@ -1,5 +1,5 @@
 import pathlib
-
+import warnings
 import torch
 import numpy as np
 from scipy.spatial.distance import directed_hausdorff
@@ -180,8 +180,9 @@ if __name__ == '__main__':
     model = MCAT_Net(1, 2)
     model.to(DEVICE)
 
-
-    state_dict = torch.load(best_dice_path)
+    with warnings.catch_warnings():
+        warnings.simplefilter("ignore", category=FutureWarning)
+        state_dict = torch.load(best_dice_path)
     model.load_state_dict(state_dict)
     model.eval()
 
