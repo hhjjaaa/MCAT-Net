@@ -38,6 +38,7 @@ output_path = "/home/hutianjiao/MCAT_NET/output/"                     # Path for
 ### 3. Run the Test Script
 
 After configuring the paths, you can run the test script. By default, the script will use GPU number '1'. If needed, you can modify the GPU index in the script.
+(i.e.: (DEVICE = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")) in `test.py`)
 
 ```bash
 python test.py
