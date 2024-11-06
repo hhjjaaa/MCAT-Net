@@ -28,8 +28,11 @@ pip install -r requirements.txt
 Before running the model, update the following paths in the `global.py` file to match your directory structure:
 
 bbox_img_path = "/home/hutianjiao/Project/Test_data/testdatas/image/"  # Path to the test images
+
 bbox_msk_path = "/home/hutianjiao/Project/Test_data/testdatas/label/"  # Path to the test labels
+
 best_dice_path = "/home/hutianjiao/Project/best_dice.pth"             # Path to the best model file
+
 output_path = "/home/hutianjiao/MCAT_NET/output/"                     # Path for saving outputs.
 
 ### 3. Run the Test Script
