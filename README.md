@@ -6,9 +6,8 @@ MCAT-Net is a deep learning model for pulmonary nodule segmentation. This reposi
 ## Best Model and Dataset
 
 
-The pretrained `best_model and testdata` can be downloaded from the following links:
+The pretrained `best_model and testdata` can be downloaded from the following link:
 
-- **Baidu Drive**: [https://pan.baidu.com/s/1tcItqTRJwl5_xO4jEi_v8w](https://pan.baidu.com/s/1tcItqTRJwl5_xO4jEi_v8w) (Extraction code: `r3ux`)
 - **Google Drive**: [https://drive.google.com/drive/folders/1i8K2j-6mWsKl-ZW3ZeVvna7BTMLHeU2V](https://drive.google.com/drive/folders/1i8K2j-6mWsKl-ZW3ZeVvna7BTMLHeU2V)
 
 ## Implementation
