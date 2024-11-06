@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 ### 2. Path Configuration
 
-Before running the model, update the following paths in the global.py file to match your directory structure:
+Before running the model, update the following paths in the `global.py` file to match your directory structure:
 
 bbox_img_path = "/home/hutianjiao/Project/Test_data/testdatas/image/"  # Path to the test images
 bbox_msk_path = "/home/hutianjiao/Project/Test_data/testdatas/label/"  # Path to the test labels
