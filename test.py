@@ -10,12 +10,12 @@ import pandas as pd
 from tqdm import tqdm
 import glob
 
-from MCAT_net import UNet
+from MCAT_net import MCAT_Net
 
 # ————————————————————————————系统设置————————————————————————————————
 
 BATCH_SIZE = 128
-model = UNet(1, 2)
+model = MCAT_Net(1, 2)
 
 # 设备设置
 DEVICE = torch.device("cuda:1" if torch.cuda.is_available() else "cpu")
