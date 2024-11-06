@@ -5,18 +5,16 @@ Pulmonary nodule segmentation model best_model can download from : https://pan.b
 
 The best trained models and test datasets can also be obtained from Google Cloud Drive:https://drive.google.com/drive/folders/1i8K2j-6mWsKl-ZW3ZeVvna7BTMLHeU2V
 
-
-```markdown
 ## Implementation
 
 ### 1. Environment
-
 Create a new environment and install the requirements:
-
-```bash
-conda create -n multieye python==3.10.2
-conda activate multieye
+```markdown
+conda create -n MCAT python==3.11
+conda activate MCAT
 pip install -r requirements.txt
+```bash
+
 
 
 Change the following address in the global.py file.
